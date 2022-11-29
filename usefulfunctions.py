@@ -4,15 +4,15 @@ def accuracy(y, y_hat):
 
 class MinMaxScaler():
     
-    def fit(self, X):
+    
+        
+        
+    def transform(self, X):
+        
         result=((X-X.min())/(X.max()-X.min()))
         
         return result
         
-    def transform(self, X):
-        
-        
-        return self.result
 
 
 
